@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/chat_item_recycler_padding">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/chat_room_item_card_margin">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chat_room_item_image"
+            android:layout_width="@dimen/chat_room_item_image_width_and_height"
+            android:layout_height="@dimen/chat_room_item_image_width_and_height"
+            android:src="@mipmap/defult_chat_room_ic"
+            android:contentDescription="@string/chat_room_item_image_content_description"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/backgroundColorWhite"/>
+
+            <TextView
+                android:id="@+id/chat_room_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/chat_room_item_image"
+                android:layout_toRightOf="@id/chat_room_item_image"
+                style="@style/ChatRoomItemStyle"
+                android:contentDescription="@string/chat_room_item_name_content_description"
+                android:textColor="@color/textColorWhite" />
+
+            <ImageView
+                android:id="@+id/chat_room_item_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_lock_white"
+                android:contentDescription="@string/chat_room_item_password_content_description"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

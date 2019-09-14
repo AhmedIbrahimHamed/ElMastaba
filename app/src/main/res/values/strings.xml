@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">El Mastaba</string>
+
+    <!--SignIn_Screen Strings-->
+    <string name="sign_in_string">Sign in</string>
+    <string name="forgot_password_string">Forgot your Password?</string>
+    <string name="or_string">OR</string>
+    <string name="new_user_string">New User?</string>
+    <string name="sign_up_string">Sign Up</string>
+
+    <string name="sign_in_dialog">Singing In...</string>
+    <string name="internet_connection_unavailable_string">No Available Internet Connection</string>
+    <string name="sign_email_field_alert_message">Please Enter Your Email Here</string>
+    <string name="sign_reset_password_title_message">Reset Password</string>
+    <string name="sign_reset_password_button_text">Reset</string>
+    <string name="reset_password_result_succeeded">Reset Password Email has been Sent Successfully</string>
+    <string name="reset_password_result_failed">Failed to Send Reset Password Email</string>
+    <string name="reset_password_cancel_string">Cancel</string>
+    <string name="connecting_failed_string">Connecting Failed</string>
+    <string name="web_client_id">760087627010-ge0hrgli7op8cec5f9mjlu71k1jj0ih4.apps.googleusercontent.com</string>
+    <string name="password_valid_error_message">Password must contain a minimum of 8 characters</string>
+    <string name="email_valid_error_massage">Please Enter a Valid Email</string>
+    <string name="email_verification_error_message">Your Email has not been verified yet</string>
+    <string name="email_verification_title">Email verification.</string>
+    <string name="email_verification_button">OK</string>
+    <string name="email_verification_resent_message">Resend Email.</string>
+    <string name="sign_in_result_failed">Signing In Failed</string>
+    <string name="sign_in_email_not_found_error_message">Your Email has not been found</string>
+    <string name="email_authentication_failed_error_message">Authentication has failed</string>
+
+
+    <string name="username_hint_text">Username :</string>
+    <string name="birth_day_hint_text">Birthday Date :</string>
+    <string name="address_hint_text">Address :</string>
+    <string name="mobile_hint_text">Mobile :</string>
+    <string name="email_hint_text">Email :</string>
+    <string name="password_hint_text">Password :</string>
+    <string name="sign_up_with_text">Sign Up With</string>
+    <string name="have_account_text">Already have an account?</string>
+    <string name="register_dialog">Registering User...</string>
+    <string name="required_string">Required Field</string>
+    <string name="username_validation_error_message">Username has to contain at least 4 characters</string>
+    <string name="username_validation_characters_error_message">Username can only contains a-z, A-z, 1-9 and underscore</string>
+    <string name="email_verification_mail_sent_message">We have send a verification link to your email please check it.</string>
+    <string name="email_used_error_message">This email is already used.</string>
+    <string name="sign_up_failed_error_message">Signing up has failed</string>
+
+    <!--Navigation_Drawer strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_my_chat_rooms">My Chat Rooms</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_about_us">About us</string>
+    <string name="nav_logout">Logout</string>
+
+    <string name="fragment_id">fragment_id</string>
+
+    <string name="add_fab_button_description">Used to create new rooms</string>
+
+    <string name="chat_room_item_image_content_description">Room Image</string>
+    <string name="chat_room_item_name_content_description">Room Name</string>
+    <string name="chat_room_item_password_content_description">Room Password</string>
+    <string name="chat_room_has_password_text">With Password</string>
+
+    <string name="create_room_name_text">Name :</string>
+    <string name="create_room_password_text">Password :</string>
+    <string name="create_room_save_text_button">Save</string>
+
+    <string name="create_room_name_validation_error">Room name has to contain at least 3 characters</string>
+    <string name="create_room_name_validation_characters_error">Room name can only contains a-z, A-z, 1-9 and underscore.</string>
+    <string name="create_room_name_validation_used_name_error">This name is already used.</string>
+    <string name="create_room_password_validation_error">Room Password must be at least 4 characters or non.</string>
+    <string name="create_room_sucess_message">The Room has been created successfully.</string>
+    <string name="create_room_fail_message">There has been a problem please try again.</string>
+    <string name="create_room_wait_message">Please wait until we upload the data</string>
+
+    <string name="chat_room_has_been_removed_error_message">This chat room no longer exist.</string>
+    <string name="chat_room_password_prompts_message">Please Enter the Room Password.</string>
+    <string name="chat_room_password_wrong_message">Incorrect Password.</string>
+
+    <string name="my_profile_edit_success">Profile has been edited successfully</string>
+
+    <string name="message_item_send_button_text">Send</string>
+    <string name="message_item_image_content_description">User is Photo</string>
+    <string name="message_menu_leave_room_text">Leave Room</string>
+    <string name="message_menu_delete_room_text">Delete Room</string>
+
+    <string name="action_create_room">action_create_room</string>
+    <string name="action_update_profile">action_update_profile</string>
+
+    <string name="content_description_lock_ic">Lock Icon</string>
+    <string name="content_description_email_ic">Email Icon</string>
+    <string name="content_description_ic_logo">App Logo</string>
+    <string name="content_description_person_ic">Person Icon</string>
+    <string name="content_description_birthday_cake_ic">Birthday Cake Icon</string>
+    <string name="content_description_home_ic">Home Icon</string>
+    <string name="content_description_mobile_ic">Mobile Icon</string>
+    <string name="content_description_google_ic">Google Authentication Icon</string>
+    <string name="content_description_plus_ic">Plus Icon for adding new Photo</string>
+    <string name="content_description_profile_picture">Profile Picture</string>
+    <!--ChatRoomActivity-->
+    <string name="room_name_text">room_name</string>
+    <string name="chat_room_text">ChatRooms</string>
+    <string name="mRoomMessages_text">mRoomMessages</string>
+    <string name="Users_text">Users</string>
+    <string name="RoomNames_text">RoomNames</string>
+    <!--CreateRoomActivity-->
+    <string name="create_room_activity_title">Create Room</string>
+    <string name="rooms_photos_text">rooms_photos</string>
+    <string name="room_password_text">room_password</string>
+    <string name="room_image_text">room_image</string>
+    <string name="all_image_types">image/*</string>
+    <string name="select_picture_text">Select Picture</string>
+    <string name="room_name_extra_text">room_name_extra</string>
+    <string name="room_password_extra_text">room_password_extra</string>
+    <string name="room_photo_extra_text">room_photo_extra</string>
+    <string name="create_room_waiting_message">Creating the room now...</string>
+    <string name="action_create_room_text">action_create_room</string>
+    <string name="ChatRooms_text">ChatRooms</string>
+    <string name="scroll_position_text">scroll_position</string>
+    <string name="dialog_positive_value">OK</string>
+    <string name="dialog_negative_value">Cancel</string>
+    <string name="users_photos_text">users_photos</string>
+    <string name="user_name_text">user_name</string>
+    <string name="user_address_text">user_address</string>
+    <string name="user_birthday_text">user_birthday</string>
+    <string name="user_mobile_text">user_mobile</string>
+    <string name="user_image_text">user_image</string>
+    <string name="address_extra_text">address_extra</string>
+    <string name="birth_day_extra_text">birth_day_extra</string>
+    <string name="mobile_extra_text">mobile_extra</string>
+    <string name="photo_extra_text">photo_extra</string>
+    <string name="user_name_extra_text">user_name_extra</string>
+    <string name="action_update_profile_text">action_update_profile</string>
+    <string name="action_search">Search</string>
+    <string name="search_action_title_message">Please enter the name of the room.</string>
+    <string name="search_room_not_fount_message">Room not found.</string>
+    <string name="search_room_found_message">Entering searched room.</string>
+
+    <string name="about_us_description">El Mastaba is an Android app which aims to enable users to freely discuss common topics they chose between them, as they can make or join a room that discuss a certain topic and they can also leave that room whenever they feel like.</string>
+
+    <!--Widget-->
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_layout_list_empty_message">No chat rooms available right now.</string>
+    <string name="widget_my_chat_rooms_id">my_chat_rooms</string>
+    <string name="user_password_input_edit_text">user_password_edit_text</string>
+    <string name="user_password_input_boolean">user_password_boolean</string>
+    <string name="user_room_name_input_edit_text">user_room_name_edit_text</string>
+    <string name="user_room_name_input_boolean">user_room_name_boolean</string>
+    <string name="user_password_input_chat_room">chat_room_with_password</string>
+
+</resources>

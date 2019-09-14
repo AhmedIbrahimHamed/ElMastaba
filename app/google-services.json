@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "760087627010",
+    "firebase_url": "https://el-mastaba.firebaseio.com",
+    "project_id": "el-mastaba",
+    "storage_bucket": "el-mastaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760087627010:android:da4067b6ecc63aa3",
+        "android_client_info": {
+          "package_name": "com.example.android.elmastaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760087627010-tovd7vqaoui82rlud2jsjb2e2lo29jfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.elmastaba",
+            "certificate_hash": "703eecec8ccbe6d2e5cc61e2f4813db8f9fb9d50"
+          }
+        },
+        {
+          "client_id": "760087627010-oj2v9873shdtc8nkpbeb2hibnmf6nkhj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.elmastaba",
+            "certificate_hash": "ba3431862c73ea435ddda36896024f8fb7863231"
+          }
+        },
+        {
+          "client_id": "760087627010-ge0hrgli7op8cec5f9mjlu71k1jj0ih4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYtt7vedIG9TvvkQsjdsbwxYVNEqzioQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760087627010-ge0hrgli7op8cec5f9mjlu71k1jj0ih4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

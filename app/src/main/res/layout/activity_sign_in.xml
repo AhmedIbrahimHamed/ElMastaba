@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/activity_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/sign_in_padding">
+
+        <ImageView
+            android:layout_width="@dimen/sign_logo_width_and_height"
+            android:layout_height="@dimen/sign_logo_width_and_height"
+            android:layout_gravity="center"
+            android:contentDescription="@string/content_description_ic_logo"
+            android:layout_margin="@dimen/sign_in_logo_margin"
+            android:src="@drawable/elmastaba_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sign_in_string"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/sign_left_and_right_padding">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_mail_white"
+                android:contentDescription="@string/content_description_email_ic"
+                android:paddingRight="@dimen/sign_in_email_and_password_ic_padding_right"
+                android:paddingEnd="@dimen/sign_in_email_and_password_ic_padding_right"/>
+
+            <EditText
+                android:id="@+id/sign_in_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/backgroundColorWhite"
+                android:hint="@string/email_hint_text"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/sign_in_email_edit_text_padding_left_and_right"
+                android:paddingRight="@dimen/sign_in_email_edit_text_padding_left_and_right"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/sign_left_and_right_padding">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_lock_white"
+                android:contentDescription="@string/content_description_lock_ic"
+                android:paddingRight="@dimen/sign_in_email_and_password_ic_padding_right"
+                android:paddingEnd="@dimen/sign_in_email_and_password_ic_padding_right"/>
+
+            <EditText
+                android:id="@+id/sign_in_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/backgroundColorWhite"
+                android:hint="@string/password_hint_text"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/sign_in_password_edit_text_padding_left"
+                android:paddingStart="@dimen/sign_in_password_edit_text_padding_left"
+                android:paddingRight="@dimen/sign_in_email_edit_text_padding_left_and_right"
+                android:paddingEnd="@dimen/sign_in_email_edit_text_padding_left_and_right"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimaryText" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sign_in_button_top_margin"
+            android:background="@drawable/sign_button_shape"
+            android:text="@string/sign_in_string"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/sign_in_forgot_password_top_right_margin"
+            android:layout_marginEnd="@dimen/sign_in_forgot_password_top_right_margin"
+            android:layout_marginTop="@dimen/sign_in_forgot_password_top_right_margin"
+            android:text="@string/forgot_password_string"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/sign_in_padding">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="@color/backgroundColorWhite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sign_or_left_right_margin"
+                android:layout_marginRight="@dimen/sign_or_left_right_margin"
+                android:text="@string/or_string"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="@color/backgroundColorWhite" />
+
+        </LinearLayout>
+
+
+        <com.google.android.gms.common.SignInButton xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/google_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/sign_with_gmail_button_margin"
+            app:buttonSize="wide"
+            app:colorScheme="light" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_user_string"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/textColorWhite" />
+
+            <TextView
+                android:id="@+id/go_to_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up_string"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/textColorWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

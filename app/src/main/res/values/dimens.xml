@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="launch_logo_margin_bottom">24dp</dimen>
+    <dimen name="sign_in_padding">16dp</dimen>
+    <dimen name="sign_logo_width_and_height">100dp</dimen>
+    <dimen name="sign_in_logo_margin">16dp</dimen>
+    <dimen name="sign_left_and_right_padding">4dp</dimen>
+    <dimen name="sign_in_email_and_password_ic_padding_right">4dp</dimen>
+    <dimen name="sign_in_email_edit_text_padding_left_and_right">4dp</dimen>
+    <dimen name="sign_in_password_edit_text_padding_left">8dp</dimen>
+    <dimen name="sign_in_button_top_margin">32dp</dimen>
+    <dimen name="sign_in_forgot_password_top_right_margin">4dp</dimen>
+    <dimen name="sign_or_left_right_margin">4dp</dimen>
+    <dimen name="sign_with_gmail_button_margin">8dp</dimen>
+
+    <dimen name="sign_up_padding">16dp</dimen>
+    <dimen name="sign_up_margin">16dp</dimen>
+    <dimen name="sign_up_username_edit_text_padding_left_and_right">4dp</dimen>
+    <dimen name="sign_up_email_edit_text_padding_left_and_right">4dp</dimen>
+    <dimen name="sign_up_button_top_margin">32dp</dimen>
+    <dimen name="sign_up_with_padding_top">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_width">56dp</dimen>
+    <dimen name="fab_height">56dp</dimen>
+
+    <dimen name="chat_item_recycler_padding">10dp</dimen>
+
+    <dimen name="chat_room_item_card_margin">4dp</dimen>
+
+    <dimen name="chat_room_item_image_margin">4dp</dimen>
+    <dimen name="chat_room_item_image_width_and_height">48dp</dimen>
+
+    <dimen name="chat_room_name_text_size">20sp</dimen>
+    <dimen name="chat_room_name_margin">4dp</dimen>
+    <dimen name="chat_room_password_maring_left">8dp</dimen>
+    <dimen name="chat_room_password_text_size">20sp</dimen>
+
+    <dimen name="create_room_image_width_height">128dp</dimen>
+    <dimen name="create_room_margin_left_top">32dp</dimen>
+    <dimen name="create_room_name_margin_top">16dp</dimen>
+    <dimen name="create_room_name_margin_left">8dp</dimen>
+    <dimen name="create_room_name_margin_right">8dp</dimen>
+    <dimen name="create_room_name_password_edit_text_height">48dp</dimen>
+    <dimen name="create_room_password_margin">8dp</dimen>
+    <dimen name="create_room_image_button_translation_z">8dp</dimen>
+
+    <integer name="chat_rooms_grid_layout_column_num">1</integer>
+
+    <dimen name="message_item_image_width_and_height">48dp</dimen>
+    <dimen name="message_item_margin_bottom">8dp</dimen>
+    <dimen name="message_item_image_margin_bottom">4dp</dimen>
+    <dimen name="message_item_content_margin_left">8dp</dimen>
+    <dimen name="message_item_content_margin_top">20dp</dimen>
+    <dimen name="message_item_name_width">72dp</dimen>
+
+    <dimen name="about_us_photo_width_height">96dp</dimen>
+    <dimen name="about_us_photo_margin">24dp</dimen>
+    <dimen name="about_us_text_margin">16dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_title_height">32dp</dimen>
+
+
+</resources>
